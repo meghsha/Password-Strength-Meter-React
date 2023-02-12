@@ -1,0 +1,78 @@
+/* External Stylesheet for external syling */
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    width: 100%;
+    font-family: Helvetica, Arial, sans-serif;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Style for App component */
+.main-container {
+    display: inline-block;
+    padding: 50px 50px;
+    border: 2px solid #ccc;
+}
+
+/* Styles for Header component */
+.header-container {
+    text-align: center;
+}
+
+.heading {
+    margin: 0;
+    font-size: 24px;
+    font-style: normal;
+	font-variant: normal;
+    font-weight: 500;
+    color: #0797a2;
+}
+
+/* Styles for Password component */
+.password-container {
+    width: 100%;
+	font-style: normal;
+	font-variant: normal;
+    font-weight: 500;
+    margin: 40px 0 20px;
+}
+
+input[type=password] {
+    width: 100%;
+    min-width: 70%;
+    padding: 15px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+input[type=password]:focus {
+    border-color: #0EB192;
+    outline: 0;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #aaa;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #aaa;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #aaa;
+}
